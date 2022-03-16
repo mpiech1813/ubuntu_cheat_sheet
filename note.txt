@@ -1,0 +1,5 @@
+sudo mv /usr/lib/firmware/iwlwifi-ty-a0-gf-a0.pnvm /usr/lib/firmware/iwlwifi-ty-a0-gf-a0.bak
+1) sudo add-app-repository ppa:yannubuntu/boot-repair
+2) sudo apt update
+3) sudo apt install boot-repair
+4) boot-repair
