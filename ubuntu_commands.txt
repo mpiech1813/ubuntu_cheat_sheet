@@ -1,0 +1,5 @@
+xdg-opne .
+top -i
+mkdir NAME && CD $_
+lsusb => list usb devices
+cd ../../..
