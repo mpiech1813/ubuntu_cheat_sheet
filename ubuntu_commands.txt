@@ -1,7 +1,12 @@
 xdg-opne .
-top -i
+top -i  ==> cpu usage
+
+watch -n 2 sensors  ==> cpu temp
+
 mkdir NAME && CD $_
+
 lsusb => list usb devices
+
 cd ../../..
 
 VSCode
