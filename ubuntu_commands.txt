@@ -1,6 +1,8 @@
 xdg-opne .
 top -i  ==> cpu usage
 
+rm -rf folder_name
+
 watch -n 2 sensors  ==> cpu temp
 
 mkdir NAME && CD $_
