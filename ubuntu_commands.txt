@@ -1,5 +1,7 @@
 xdg-opne .
 
+cat filename.txt
+
 top -i  ==> cpu usage
 watch -n 2 sensors  ==> cpu temp
 
