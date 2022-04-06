@@ -25,4 +25,8 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get autoremove
 
+ps aux ==> show all process pids
+pidof <name of process> 
+
+kill -9 <PID> ==> kill process
 
