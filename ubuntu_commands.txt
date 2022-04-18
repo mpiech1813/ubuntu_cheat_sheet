@@ -2,6 +2,7 @@ xdg-opne .
 
 cat filename.txt
 
+more /proc/cpuinfo ==> check name of cpu
 top -i  ==> cpu usage
 watch -n 2 sensors  ==> cpu temp
 
