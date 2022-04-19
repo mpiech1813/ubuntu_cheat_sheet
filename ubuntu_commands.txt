@@ -31,3 +31,5 @@ pidof <name of process>
 
 kill -9 <PID> ==> kill process
 
+docker rm $(docker container ls -aq) ==> use $() to input info into it
+
