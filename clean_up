@@ -1,3 +1,4 @@
+echo "Starting Clean Up"
 sudo apt clean
 sudo apt update
 sudo apt upgrade -y
