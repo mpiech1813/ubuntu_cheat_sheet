@@ -2,38 +2,42 @@ xdg-opne .
 
 cat filename.txt
 
-more /proc/cpuinfo ==> check name of cpu
-top -i  ==> cpu usage
-watch -n 2 sensors  ==> cpu temp
-
-rm -rf folder_name
+cd ../../..
 
 zip -r fileName ./location
 
 mkdir NAME && CD $_
 
+rm -rf folder_name
+
+---CPU---
+more /proc/cpuinfo ==> check name of cpu
+top -i  ==> cpu usage
+watch -n 2 sensors  ==> cpu temp
+
+---HDD/SDD---
+sudo apt install iotop
+sudo iotop
+
+---RAM---
+free -m
+
+---PROCESSES---
+ps aux ==> show all process pids
+pidof <name of process> 
+
+kill -9 <PID> ==> kill process
+
+---USB DEVICES---
 lsusb => list usb devices
 
-cd ../../..
-
-VSCode
+---VSCode---
 wget 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64' -O /tmp/code_latest_amd64.deb
 sudo dpkg -i /tmp/code_latest_amd64.deb
 
 OR
 
-suco code_update
-
-Clean Up
-sudo apt-get clean
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get autoremove
-
-ps aux ==> show all process pids
-pidof <name of process> 
-
-kill -9 <PID> ==> kill process
+sudo code_update
 
 docker rm $(docker container ls -aq) ==> use $() to input info into it
 
