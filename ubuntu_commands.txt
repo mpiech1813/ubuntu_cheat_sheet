@@ -41,3 +41,8 @@ sudo code_update
 
 docker rm $(docker container ls -aq) ==> use $() to input info into it
 
+---INTERNET---
+ping -c 100 google.com
+
+sudo apt install speedtest-cli
+speedtest-cli
