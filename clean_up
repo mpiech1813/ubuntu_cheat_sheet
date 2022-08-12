@@ -1,5 +1,8 @@
-echo "Starting Clean Up"
+echo "---Starting Clean Up---"
 sudo apt clean
+echo "---Starting Update---"
 sudo apt update
+echo "Starting Upgrade---"
 sudo apt upgrade -y
+echo "Starting Autoremove---"
 sudo apt autoremove
