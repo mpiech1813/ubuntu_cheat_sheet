@@ -1,4 +1,6 @@
-xdg-opne .
+-- GNU---
+xdg-open .
+open .
 
 cat filename.txt
 
@@ -46,6 +48,9 @@ ping -c 100 google.com
 
 sudo apt install speedtest-cli
 speedtest-cli
+
+lsof -t tcp:3000 => to check which process is running on port 3000
+sudo kill -9 3000 => to kill process 3000
 
 ---BIOS---
 sudo dmidecode -s bios-version
