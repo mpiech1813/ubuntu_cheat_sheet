@@ -54,3 +54,6 @@ sudo kill -9 3000 => to kill process 3000
 
 ---BIOS---
 sudo dmidecode -s bios-version
+
+---PERMISIONS---
+chmod +x ./file_name.sh => make executible
